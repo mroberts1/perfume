@@ -1,0 +1,83 @@
+project:
+  type: website
+  resources:
+    - "pdf/*.pdf"
+  
+website:
+  title: "    "
+  bread-crumbs: false
+  site-url: https://mroberts1.github.io/perfume/
+  # twitter-card:
+  #   creator: "@mroberts_vma"
+  #   card-style: summary_large_image
+  favicon: "/img/cropped-cropped-flourish-1-270x270.gif"
+  margin-header: |
+    ![](/img/Emerson-PrimaryLogo-Reversed-Color-400px.png){width="50%"}
+  # sidebar:
+  #   search: false
+  #   style: "floating"
+  #   collapse-level: 0
+  #   contents:
+  #       - section: "Topics"
+  #         contents:
+  #           - text: Fandom
+  #             file: w2-fandom.qmd
+  #           - text: BookTok
+  #             file: bookish.qmd
+        # - section: "Resources"
+        #   contents:
+        #     - text: Key Concepts
+        #       file: key-concepts.qmd
+  # navbar:
+  #   background: "#62259d"
+  #   # search: true
+  #   left:
+  #     - text: Home
+  #       file: index.qmd
+  #     - text: Bibliography
+  #       file: bibliography.qmd
+    # right:
+    # - icon: envelope
+    #   aria-label: envelope
+    #   href: mailto:martin_roberts@emerson.edu
+    # - icon: mastodon
+    #   aria-label: mastodon
+    #   href: https://merveilles.town/@dokoissho
+    # - icon: github
+    #   aria-label: github
+    #   href: https://github.com/mroberts1
+    # - icon: twitter
+    #   aria-label: twitter
+    #   href: https://twitter.com/mroberts_vma
+format: 
+  html:
+    toc: true
+    toc-depth: 3  
+    toc-location: left
+    toc-title: '   '
+    theme: 
+      light: ember.scss
+      dark: [slate, ember.scss]
+    css: custom.scss
+    grid:
+        sidebar-width: 300px
+        body-width: 800px
+        margin-width: 300px
+        gutter-width: 1em
+    # page-layout: article
+    fontsize: 1em
+    linestretch: 1.5
+    smooth-scroll: true
+    linkcolor: "#62259d"
+    title-block-banner: false
+  # PrettyPDF-pdf: default
+lightbox:
+  match: auto
+fig-responsive: true
+image-alt: " "
+execute:
+  freeze: true
+editor: source
+# bibliography: references.bib
+# csl: chicago-author-date.csl
+# link-citations: true

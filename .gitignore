@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+_site/
+**/*.quarto_ipynb
+.positai
+.DS_Store
+.chum-cache/
+*.log
+*.tex
+index.log
